@@ -65,7 +65,7 @@ public class TelnetSession extends TermSession
 
     public static final int OPTION_ECHO = 1; // see RFC 857
     public static final int OPTION_SUPPRESS_GO_AHEAD = 3; // see RFC 858
-    public static final int OPTION_RANDOMLY_LOSE = 256; // see RFC 748 :)
+    ublic static final int OPTION_RANDOMLY_LOSE = 256; // see RFC 748 :)
 
     // Whether we believe the remote end implements the telnet protocol
     private boolean peerIsTelnetd = false;
